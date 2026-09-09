@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "/root/.nvm/versions/node/v24.13.1/bin/npx",
+      "args": ["--yes", "@playwright/mcp@0.0.80", "--headless", "--no-sandbox", "--executable-path", "/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome"]
+    }
+  }
+}

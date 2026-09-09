@@ -1,0 +1,15 @@
+[Unit]
+Description=AI Website Cloner preview
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/ai-website-cloner
+Environment=NODE_ENV=production
+Environment=NEXT_TELEMETRY_DISABLED=1
+ExecStart=/root/.nvm/versions/node/v24.13.1/bin/node node_modules/next/dist/bin/next start --hostname 0.0.0.0 --port 3100
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
