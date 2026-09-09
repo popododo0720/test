@@ -1,0 +1,44 @@
+[
+  {
+    "file": "logo.png",
+    "url": "https://www.andidea.jp/andidea.png",
+    "bytes": 31693,
+    "contentType": "image/png",
+    "sha256": "2b8afd1935d67a3e5a1bdbd0635fddbb8f9a17e1844c884dc5836b7ccf81170a"
+  },
+  {
+    "file": "background.mp4",
+    "url": "https://www.andidea.jp/media/bg-02.mp4?v=16daa9ff5f86",
+    "bytes": 21816076,
+    "contentType": "video/mp4",
+    "sha256": "16daa9ff5f86de2ed3cc9e0545208473a2a9c66a3efe06a37d8eea9b34e64679"
+  },
+  {
+    "file": "background.jpg",
+    "url": "https://www.andidea.jp/media/bg-02.jpg?v=16daa9ff5f86",
+    "bytes": 287329,
+    "contentType": "image/jpeg",
+    "sha256": "a709913b7fb5ec0869868528e7b71428f77e476e2959113171e0f8654f36a9d9"
+  },
+  {
+    "file": "favicon.ico",
+    "url": "https://www.andidea.jp/favicon.ico?v=andidea-20260908",
+    "bytes": 67646,
+    "contentType": "image/x-icon",
+    "sha256": "b2b01dc615dee5fd1e87bb46cddbfc06851c4139600b54ec3c47ed610f12babe"
+  },
+  {
+    "file": "geist.woff2",
+    "url": "https://www.andidea.jp/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+    "bytes": 29288,
+    "contentType": "font/woff2",
+    "sha256": "9b6f5ff45b278c744b5f379a2c4ecbaf858a842b8eaf82ac8d21b699ca16c608"
+  },
+  {
+    "file": "geist-mono.woff2",
+    "url": "https://www.andidea.jp/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+    "bytes": 23108,
+    "contentType": "font/woff2",
+    "sha256": "5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b"
+  }
+]
