@@ -29,7 +29,7 @@ systemctl daemon-reload
 systemctl enable --now ai-website-cloner
 ```
 
-This is an independent local Git repository. No remote is configured; add your own repository as origin before pushing. Do not push generated sites to the upstream template.
+Git remote `origin`: `git@github.com:popododo0720/test.git`. The `main` branch contains the original repository history and the website clone. Push changes to this repository, not the upstream template.
 
 ## Current preview
 

@@ -1,3 +1,14 @@
+# test
+
+And Idea homepage recreation built with Next.js.
+
+- Server project: `/root/ai-website-cloner`
+- Preview: http://192.168.0.40:3100
+- Setup and operations: [docs/SERVER.md](docs/SERVER.md)
+- Original site: https://www.andidea.jp/
+
+The original repository history is preserved. The template documentation follows.
+
 <div align="center">
 
 # AI Website Cloner Template

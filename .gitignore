@@ -47,3 +47,8 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Existing repository Python files
+.venv/
+__pycache__/
+*.pyc
