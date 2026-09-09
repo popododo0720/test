@@ -1,0 +1,13 @@
+{
+  "pointer": "true",
+  "asciiPulse": true,
+  "dissolve": true,
+  "reduced": {
+    "count": 6,
+    "paused": true
+  },
+  "focusTrap": true,
+  "focusReturn": true,
+  "videoFallback": true,
+  "runtimeErrors": []
+}

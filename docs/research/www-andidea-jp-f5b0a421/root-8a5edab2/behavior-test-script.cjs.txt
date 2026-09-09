@@ -1,0 +1,27 @@
+const { chromium } = require('/root/.npm/_npx/cbf1b8a072280925/node_modules/playwright');
+const fs = require('fs');
+const assert = require('node:assert/strict');
+(async () => {
+ const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/google-chrome',args:['--no-sandbox']});
+ const result={};const errors=[];
+ const context=await browser.newContext({viewport:{width:1440,height:900}}); const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:3100');await page.waitForSelector('.journey-ready');
+ await page.waitForFunction(()=>document.querySelector('video').readyState>=2);
+ await page.mouse.move(1200,300); await page.waitForTimeout(350);
+ result.pointer=await page.locator('.journey-film').getAttribute('data-holo-active');assert.equal(result.pointer,'true');
+ await page.waitForFunction(()=>{const c=document.querySelector('.film-ascii-pulse');return c&&!c.hidden},{timeout:10000});result.asciiPulse=true;
+ await page.evaluate(()=>scrollTo({top:document.querySelector('.journey').offsetHeight*.07,behavior:'instant'}));
+ await page.waitForTimeout(150);result.dissolve=await page.locator('.ascii-dissolve').evaluate(e=>!e.hidden);assert.equal(result.dissolve,true);
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForSelector('.journey-reduced');
+ result.reduced=await page.evaluate(()=>({count:[...document.querySelectorAll('.journey-scene')].filter(e=>getComputedStyle(e).visibility==='visible'&&getComputedStyle(e).opacity==='1'&&!e.inert).length,paused:document.querySelector('video').paused}));assert.equal(result.reduced.count,6);assert.equal(result.reduced.paused,true);
+ await page.emulateMedia({reducedMotion:'no-preference'});await page.waitForSelector('.journey-ready:not(.journey-reduced)');
+ await page.setViewportSize({width:390,height:844});await page.locator('.mobile-toggle').click();await page.waitForTimeout(250);
+ for(let i=0;i<9;i++)await page.keyboard.press('Tab');
+ result.focusTrap=await page.evaluate(()=>document.querySelector('dialog').contains(document.activeElement));assert.equal(result.focusTrap,true);
+ await page.keyboard.press('Escape');result.focusReturn=await page.locator('.mobile-toggle').evaluate(e=>e===document.activeElement);assert.equal(result.focusReturn,true);
+ const fail=await context.newPage();await fail.route('**/background.mp4',route=>route.abort());await fail.goto('http://127.0.0.1:3100');await fail.waitForSelector('.journey-error');
+ result.videoFallback=await fail.locator('.journey-film img').evaluate(e=>e.complete&&e.naturalWidth>0);assert.equal(result.videoFallback,true);
+ assert.deepEqual(errors,[]);result.runtimeErrors=errors;
+ fs.writeFileSync('/root/ai-website-cloner/docs/research/www-andidea-jp-f5b0a421/root-8a5edab2/behavior-tests.json',JSON.stringify(result,null,2));
+ console.log(JSON.stringify(result));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

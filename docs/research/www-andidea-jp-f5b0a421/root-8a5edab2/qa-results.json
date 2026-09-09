@@ -1,0 +1,5200 @@
+{
+  "original": {
+    "contactHover": {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(16, 36, 43)"
+    },
+    "scrollCue": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 1953,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 674.5,
+            "y": 0,
+            "width": 91,
+            "height": 83,
+            "top": 0,
+            "right": 765.5,
+            "bottom": 83,
+            "left": 674.5
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 22.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 22.5,
+            "right": 392.71875,
+            "bottom": 77.5,
+            "left": 50.390625
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 26.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 26.25,
+            "right": 1389.609375,
+            "bottom": 73.75,
+            "left": 1235.375
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 43.974220275878906,
+            "y": 96.7945785522461,
+            "width": 1343.8692626953125,
+            "height": 774.3756713867188,
+            "top": 96.7945785522461,
+            "right": 1387.8434829711914,
+            "bottom": 871.1702499389648,
+            "left": 43.974220275878906
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 111.89408874511719,
+            "y": 503.9338684082031,
+            "width": 541.3125,
+            "height": 278.2499694824219,
+            "top": 503.9338684082031,
+            "right": 653.2065887451172,
+            "bottom": 782.183837890625,
+            "left": 111.89408874511719
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 111.89408874511719,
+            "y": 564.027587890625,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 564.027587890625,
+            "right": 653.2065887451172,
+            "bottom": 782.183837890625,
+            "left": 111.89408874511719
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 956.8807373046875,
+            "y": 133.1397705078125,
+            "width": 360.015625,
+            "height": 205,
+            "top": 133.1397705078125,
+            "right": 1316.8963623046875,
+            "bottom": 338.1397705078125,
+            "left": 956.8807373046875
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 956.8807373046875,
+            "y": 574.7022705078125,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 574.7022705078125,
+            "right": 1316.8963623046875,
+            "bottom": 775.6397705078125,
+            "left": 956.8807373046875
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "lastMarker": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 8523,
+      "active": "6. お問い合わせ",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 674.5,
+            "y": 0,
+            "width": 91,
+            "height": 83,
+            "top": 0,
+            "right": 765.5,
+            "bottom": 83,
+            "left": 674.5
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 22.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 22.5,
+            "right": 392.71875,
+            "bottom": 77.5,
+            "left": 50.390625
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 26.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 26.25,
+            "right": 1389.609375,
+            "bottom": 73.75,
+            "left": 1235.375
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 37.71720886230469,
+            "y": 93.58806610107422,
+            "width": 1343.8248291015625,
+            "height": 781.6524047851562,
+            "top": 93.58806610107422,
+            "right": 1381.5420379638672,
+            "bottom": 875.2404708862305,
+            "left": 37.71720886230469
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 117.87002563476562,
+            "y": 504.2834167480469,
+            "width": 541.3125,
+            "height": 278.2500305175781,
+            "top": 504.2834167480469,
+            "right": 659.1825256347656,
+            "bottom": 782.533447265625,
+            "left": 117.87002563476562
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 117.87002563476562,
+            "y": 564.377197265625,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 564.377197265625,
+            "right": 659.1825256347656,
+            "bottom": 782.533447265625,
+            "left": 117.87002563476562
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 966.8406982421875,
+            "y": 133.7223358154297,
+            "width": 360.015625,
+            "height": 205.00001525878906,
+            "top": 133.7223358154297,
+            "right": 1326.8563232421875,
+            "bottom": 338.72235107421875,
+            "left": 966.8406982421875
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 966.8406982421875,
+            "y": 575.2848510742188,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 575.2848510742188,
+            "right": 1326.8563232421875,
+            "bottom": 776.2223510742188,
+            "left": 966.8406982421875
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "backToTop": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 33.443031311035156,
+            "y": 91.6286849975586,
+            "width": 1345.962158203125,
+            "height": 785.13427734375,
+            "top": 91.6286849975586,
+            "right": 1379.4051895141602,
+            "bottom": 876.7629623413086,
+            "left": 33.443031311035156
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 120.87998962402344,
+            "y": 506.25311279296875,
+            "width": 541.3125,
+            "height": 278.25,
+            "top": 506.25311279296875,
+            "right": 662.1924896240234,
+            "bottom": 784.5031127929688,
+            "left": 120.87998962402344
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 120.87998962402344,
+            "y": 566.3468627929688,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 566.3468627929688,
+            "right": 662.1924896240234,
+            "bottom": 784.5031127929688,
+            "left": 120.87998962402344
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 971.8572998046875,
+            "y": 137.00518798828125,
+            "width": 360.015625,
+            "height": 205,
+            "top": 137.00518798828125,
+            "right": 1331.8729248046875,
+            "bottom": 342.00518798828125,
+            "left": 971.8572998046875
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 971.8572998046875,
+            "y": 578.5676879882812,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 578.5676879882812,
+            "right": 1331.8729248046875,
+            "bottom": 779.5051879882812,
+            "left": 971.8572998046875
+          },
+          "font": "Geist, \"Geist Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    }
+  },
+  "clone": {
+    "1440": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 50.390625,
+            "y": 100,
+            "width": 1339.21875,
+            "height": 770,
+            "top": 100,
+            "right": 1389.609375,
+            "bottom": 870,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 108,
+            "y": 500.25,
+            "width": 541.3125,
+            "height": 278.25,
+            "top": 500.25,
+            "right": 649.3125,
+            "bottom": 778.5,
+            "left": 108
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 108,
+            "y": 560.34375,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 560.34375,
+            "right": 649.3125,
+            "bottom": 778.5,
+            "left": 108
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 950.390625,
+            "y": 127,
+            "width": 360.015625,
+            "height": 205,
+            "top": 127,
+            "right": 1310.40625,
+            "bottom": 332,
+            "left": 950.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 950.390625,
+            "y": 568.5625,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 568.5625,
+            "right": 1310.40625,
+            "bottom": 769.5,
+            "left": 950.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "1440-chapter-1": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 42.63861846923828,
+            "y": 96.55452728271484,
+            "width": 1340.4302978515625,
+            "height": 778.3614501953125,
+            "top": 96.55452728271484,
+            "right": 1383.0689163208008,
+            "bottom": 874.9159774780273,
+            "left": 42.63861846923828
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 114.8358154296875,
+            "y": 499.0870056152344,
+            "width": 541.3125,
+            "height": 278.2500305175781,
+            "top": 499.0870056152344,
+            "right": 656.1483154296875,
+            "bottom": 777.3370361328125,
+            "left": 114.8358154296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 114.8358154296875,
+            "y": 559.1807861328125,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 559.1807861328125,
+            "right": 656.1483154296875,
+            "bottom": 777.3370361328125,
+            "left": 114.8358154296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 961.7836303710938,
+            "y": 125.06167602539062,
+            "width": 360.01568603515625,
+            "height": 205,
+            "top": 125.06167602539062,
+            "right": 1321.79931640625,
+            "bottom": 330.0616760253906,
+            "left": 961.7836303710938
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 961.7836303710938,
+            "y": 566.6241455078125,
+            "width": 360.01568603515625,
+            "height": 200.9375,
+            "top": 566.6241455078125,
+            "right": 1321.79931640625,
+            "bottom": 767.5616455078125,
+            "left": 961.7836303710938
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "1440-chapter-2": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 1953,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 35.49787902832031,
+            "y": 92.73788452148438,
+            "width": 1340.326416015625,
+            "height": 786.9111328125,
+            "top": 92.73788452148438,
+            "right": 1375.8242950439453,
+            "bottom": 879.6490173339844,
+            "left": 35.49787902832031
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 121.71415710449219,
+            "y": 498.50457763671875,
+            "width": 541.3125,
+            "height": 278.25,
+            "top": 498.50457763671875,
+            "right": 663.0266571044922,
+            "bottom": 776.7545776367188,
+            "left": 121.71415710449219
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 121.71415710449219,
+            "y": 558.5983276367188,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 558.5983276367188,
+            "right": 663.0266571044922,
+            "bottom": 776.7545776367188,
+            "left": 121.71415710449219
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 973.24755859375,
+            "y": 124.0909423828125,
+            "width": 360.015625,
+            "height": 205,
+            "top": 124.0909423828125,
+            "right": 1333.26318359375,
+            "bottom": 329.0909423828125,
+            "left": 973.24755859375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 973.24755859375,
+            "y": 565.6534423828125,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 565.6534423828125,
+            "right": 1333.26318359375,
+            "bottom": 766.5909423828125,
+            "left": 973.24755859375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "1440-chapter-3": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 3663,
+      "active": "3. 映像と表現",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 35.616676330566406,
+            "y": 92.34739685058594,
+            "width": 1339.3076171875,
+            "height": 787.3651733398438,
+            "top": 92.34739685058594,
+            "right": 1374.9242935180664,
+            "bottom": 879.7125701904297,
+            "left": 35.616676330566406
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 122.10865783691406,
+            "y": 499.2452392578125,
+            "width": 541.3125,
+            "height": 278.25,
+            "top": 499.2452392578125,
+            "right": 663.4211578369141,
+            "bottom": 777.4952392578125,
+            "left": 122.10865783691406
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 122.10865783691406,
+            "y": 559.3389892578125,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 559.3389892578125,
+            "right": 663.4211578369141,
+            "bottom": 777.4952392578125,
+            "left": 122.10865783691406
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 973.905029296875,
+            "y": 125.32540130615234,
+            "width": 360.015625,
+            "height": 205,
+            "top": 125.32540130615234,
+            "right": 1333.920654296875,
+            "bottom": 330.32540130615234,
+            "left": 973.905029296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 973.905029296875,
+            "y": 566.8878784179688,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 566.8878784179688,
+            "right": 1333.920654296875,
+            "bottom": 767.8253784179688,
+            "left": 973.905029296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "1440-chapter-4": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 5283,
+      "active": "4. 技術とアイデア",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": false,
+          "opacity": "0.854545",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 36.13499069213867,
+            "y": 92.15596008300781,
+            "width": 1338.2493896484375,
+            "height": 787.354248046875,
+            "top": 92.15596008300781,
+            "right": 1374.3843803405762,
+            "bottom": 879.5102081298828,
+            "left": 36.13499069213867
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 122.14116668701172,
+            "y": 500.06488037109375,
+            "width": 541.3125,
+            "height": 278.25,
+            "top": 500.06488037109375,
+            "right": 663.4536666870117,
+            "bottom": 778.3148803710938,
+            "left": 122.14116668701172
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 122.14116668701172,
+            "y": 560.1586303710938,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 560.1586303710938,
+            "right": 663.4536666870117,
+            "bottom": 778.3148803710938,
+            "left": 122.14116668701172
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 973.959228515625,
+            "y": 126.69144439697266,
+            "width": 360.015625,
+            "height": 205,
+            "top": 126.69144439697266,
+            "right": 1333.974853515625,
+            "bottom": 331.69144439697266,
+            "left": 973.959228515625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 973.959228515625,
+            "y": 568.2539672851562,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 568.2539672851562,
+            "right": 1333.974853515625,
+            "bottom": 769.1914672851562,
+            "left": 973.959228515625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "1440-chapter-5": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 6813,
+      "active": "5. 制作・開発・研修",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 35.702857971191406,
+            "y": 91.94668579101562,
+            "width": 1339.0697021484375,
+            "height": 787.284423828125,
+            "top": 91.94668579101562,
+            "right": 1374.772560119629,
+            "bottom": 879.2311096191406,
+            "left": 35.702857971191406
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 122.14498138427734,
+            "y": 501.0744934082031,
+            "width": 541.3125,
+            "height": 278.2499694824219,
+            "top": 501.0744934082031,
+            "right": 663.4574813842773,
+            "bottom": 779.324462890625,
+            "left": 122.14498138427734
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 122.14498138427734,
+            "y": 561.168212890625,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 561.168212890625,
+            "right": 663.4574813842773,
+            "bottom": 779.324462890625,
+            "left": 122.14498138427734
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 973.965576171875,
+            "y": 128.3741455078125,
+            "width": 360.015625,
+            "height": 205,
+            "top": 128.3741455078125,
+            "right": 1333.981201171875,
+            "bottom": 333.3741455078125,
+            "left": 973.965576171875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 973.965576171875,
+            "y": 569.9366455078125,
+            "width": 360.015625,
+            "height": 200.9375,
+            "top": 569.9366455078125,
+            "right": 1333.981201171875,
+            "bottom": 770.8741455078125,
+            "left": 973.965576171875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "1440-chapter-6": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "scrollY": 8523,
+      "active": "6. お問い合わせ",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 100,
+            "top": 0,
+            "right": 1440,
+            "bottom": 100,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 665,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 775,
+            "bottom": 104,
+            "left": 665
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "29px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 50.390625,
+            "y": 24.5,
+            "width": 342.328125,
+            "height": 55,
+            "top": 24.5,
+            "right": 392.71875,
+            "bottom": 79.5,
+            "left": 50.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 1235.375,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 1389.609375,
+            "bottom": 75.75,
+            "left": 1235.375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 35.01742935180664,
+            "y": 91.74315643310547,
+            "width": 1340.3817138671875,
+            "height": 787.19775390625,
+            "top": 91.74315643310547,
+            "right": 1375.3991432189941,
+            "bottom": 878.9409103393555,
+            "left": 35.01742935180664
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 122.14574432373047,
+            "y": 502.09478759765625,
+            "width": 541.3125,
+            "height": 278.25,
+            "top": 502.09478759765625,
+            "right": 663.4582443237305,
+            "bottom": 780.3447875976562,
+            "left": 122.14574432373047
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 122.14574432373047,
+            "y": 562.1885375976562,
+            "width": 541.3125,
+            "height": 218.15625,
+            "top": 562.1885375976562,
+            "right": 663.4582443237305,
+            "bottom": 780.3447875976562,
+            "left": 122.14574432373047
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "108px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 973.9668579101562,
+            "y": 130.0746307373047,
+            "width": 360.01556396484375,
+            "height": 205.00001525878906,
+            "top": 130.0746307373047,
+            "right": 1333.982421875,
+            "bottom": 335.07464599609375,
+            "left": 973.9668579101562
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 973.9668579101562,
+            "y": 571.6371459960938,
+            "width": 360.01556396484375,
+            "height": 200.9375,
+            "top": 571.6371459960938,
+            "right": 1333.982421875,
+            "bottom": 772.5746459960938,
+            "left": 973.9668579101562
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 26.602445602416992,
+            "y": 99.68445587158203,
+            "width": 714.3438110351562,
+            "height": 894.5556030273438,
+            "top": 99.68445587158203,
+            "right": 740.9462566375732,
+            "bottom": 994.2400588989258,
+            "left": 26.602445602416992
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 58.353919982910156,
+            "y": 707.8869018554688,
+            "width": 292.5,
+            "height": 178,
+            "top": 707.8869018554688,
+            "right": 350.85391998291016,
+            "bottom": 885.8869018554688,
+            "left": 58.353919982910156
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 58.353919982910156,
+            "y": 767.9806518554688,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 767.9806518554688,
+            "right": 350.85391998291016,
+            "bottom": 885.8869018554688,
+            "left": 58.353919982910156
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 500.4544372558594,
+            "y": 143.56149291992188,
+            "width": 207.37503051757812,
+            "height": 180,
+            "top": 143.56149291992188,
+            "right": 707.8294677734375,
+            "bottom": 323.5614929199219,
+            "left": 500.4544372558594
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 500.4544372558594,
+            "y": 625.7333374023438,
+            "width": 207.37503051757812,
+            "height": 250,
+            "top": 625.7333374023438,
+            "right": 707.8294677734375,
+            "bottom": 875.7333374023438,
+            "left": 500.4544372558594
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768-chapter-1": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 23.782550811767578,
+            "y": 97.46060180664062,
+            "width": 715.0165405273438,
+            "height": 900.916015625,
+            "top": 97.46060180664062,
+            "right": 738.7990913391113,
+            "bottom": 998.3766174316406,
+            "left": 23.782550811767578
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 66.69953155517578,
+            "y": 706.3369750976562,
+            "width": 292.5,
+            "height": 178,
+            "top": 706.3369750976562,
+            "right": 359.1995315551758,
+            "bottom": 884.3369750976562,
+            "left": 66.69953155517578
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 66.69953155517578,
+            "y": 766.4307250976562,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 766.4307250976562,
+            "right": 359.1995315551758,
+            "bottom": 884.3369750976562,
+            "left": 66.69953155517578
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 514.3638305664062,
+            "y": 140.97828674316406,
+            "width": 207.375,
+            "height": 179.99998474121094,
+            "top": 140.97828674316406,
+            "right": 721.7388305664062,
+            "bottom": 320.978271484375,
+            "left": 514.3638305664062
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 514.3638305664062,
+            "y": 623.150146484375,
+            "width": 207.375,
+            "height": 250,
+            "top": 623.150146484375,
+            "right": 721.7388305664062,
+            "bottom": 873.150146484375,
+            "left": 514.3638305664062
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768-chapter-2": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 2222,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 22.826679229736328,
+            "y": 96.12505340576172,
+            "width": 714.6707153320312,
+            "height": 903.79345703125,
+            "top": 96.12505340576172,
+            "right": 737.4973945617676,
+            "bottom": 999.9185104370117,
+            "left": 22.826679229736328
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 70.50164031982422,
+            "y": 706.3021240234375,
+            "width": 292.5,
+            "height": 178,
+            "top": 706.3021240234375,
+            "right": 363.0016403198242,
+            "bottom": 884.3021240234375,
+            "left": 70.50164031982422
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 70.50164031982422,
+            "y": 766.3958740234375,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 766.3958740234375,
+            "right": 363.0016403198242,
+            "bottom": 884.3021240234375,
+            "left": 70.50164031982422
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 520.70068359375,
+            "y": 140.920166015625,
+            "width": 207.375,
+            "height": 180,
+            "top": 140.920166015625,
+            "right": 728.07568359375,
+            "bottom": 320.920166015625,
+            "left": 520.70068359375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 520.70068359375,
+            "y": 623.092041015625,
+            "width": 207.375,
+            "height": 250,
+            "top": 623.092041015625,
+            "right": 728.07568359375,
+            "bottom": 873.092041015625,
+            "left": 520.70068359375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768-chapter-3": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 4168,
+      "active": "3. 映像と表現",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 23.015399932861328,
+            "y": 95.67991638183594,
+            "width": 714.0482788085938,
+            "height": 904.0758666992188,
+            "top": 95.67991638183594,
+            "right": 737.0636787414551,
+            "bottom": 999.7557830810547,
+            "left": 23.015399932861328
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 70.93612670898438,
+            "y": 707.0205078125,
+            "width": 292.5,
+            "height": 178,
+            "top": 707.0205078125,
+            "right": 363.4361267089844,
+            "bottom": 885.0205078125,
+            "left": 70.93612670898438
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 70.93612670898438,
+            "y": 767.1142578125,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 767.1142578125,
+            "right": 363.4361267089844,
+            "bottom": 885.0205078125,
+            "left": 70.93612670898438
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 521.4248046875,
+            "y": 142.1175537109375,
+            "width": 207.375,
+            "height": 180,
+            "top": 142.1175537109375,
+            "right": 728.7998046875,
+            "bottom": 322.1175537109375,
+            "left": 521.4248046875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 521.4248046875,
+            "y": 624.2894287109375,
+            "width": 207.375,
+            "height": 250,
+            "top": 624.2894287109375,
+            "right": 728.7998046875,
+            "bottom": 874.2894287109375,
+            "left": 521.4248046875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768-chapter-4": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 6011,
+      "active": "4. 技術とアイデア",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": false,
+          "opacity": "0.853693",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 23.298629760742188,
+            "y": 95.37301635742188,
+            "width": 713.4660034179688,
+            "height": 904.0582275390625,
+            "top": 95.37301635742188,
+            "right": 736.7646331787109,
+            "bottom": 999.4312438964844,
+            "left": 23.298629760742188
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 70.98445129394531,
+            "y": 707.746337890625,
+            "width": 292.5,
+            "height": 178,
+            "top": 707.746337890625,
+            "right": 363.4844512939453,
+            "bottom": 885.746337890625,
+            "left": 70.98445129394531
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 70.98445129394531,
+            "y": 767.840087890625,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 767.840087890625,
+            "right": 363.4844512939453,
+            "bottom": 885.746337890625,
+            "left": 70.98445129394531
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 521.5053100585938,
+            "y": 143.32725524902344,
+            "width": 207.375,
+            "height": 180.00001525878906,
+            "top": 143.32725524902344,
+            "right": 728.8803100585938,
+            "bottom": 323.3272705078125,
+            "left": 521.5053100585938
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 521.5053100585938,
+            "y": 625.4991455078125,
+            "width": 207.375,
+            "height": 250,
+            "top": 625.4991455078125,
+            "right": 728.8803100585938,
+            "bottom": 875.4991455078125,
+            "left": 521.5053100585938
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768-chapter-5": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 7752,
+      "active": "5. 制作・開発・研修",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 22.956344604492188,
+            "y": 95.02472686767578,
+            "width": 714.1320190429688,
+            "height": 903.988525390625,
+            "top": 95.02472686767578,
+            "right": 737.0883636474609,
+            "bottom": 999.0132522583008,
+            "left": 22.956344604492188
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 70.99076843261719,
+            "y": 708.624267578125,
+            "width": 292.5,
+            "height": 178,
+            "top": 708.624267578125,
+            "right": 363.4907684326172,
+            "bottom": 886.624267578125,
+            "left": 70.99076843261719
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 70.99076843261719,
+            "y": 768.718017578125,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 768.718017578125,
+            "right": 363.4907684326172,
+            "bottom": 886.624267578125,
+            "left": 70.99076843261719
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 521.515869140625,
+            "y": 144.79046630859375,
+            "width": 207.375,
+            "height": 180,
+            "top": 144.79046630859375,
+            "right": 728.890869140625,
+            "bottom": 324.79046630859375,
+            "left": 521.515869140625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 521.515869140625,
+            "y": 626.9623413085938,
+            "width": 207.375,
+            "height": 250,
+            "top": 626.9623413085938,
+            "right": 728.890869140625,
+            "bottom": 876.9623413085938,
+            "left": 521.515869140625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "768-chapter-6": {
+      "width": 768,
+      "scrollWidth": 768,
+      "scrollY": 9697,
+      "active": "6. お問い合わせ",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 768,
+            "height": 90,
+            "top": 0,
+            "right": 768,
+            "bottom": 90,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 329,
+            "y": 0,
+            "width": 110,
+            "height": 104,
+            "top": 0,
+            "right": 439,
+            "bottom": 104,
+            "left": 329
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 26.875,
+            "y": 26.25,
+            "width": 295.734375,
+            "height": 51.5,
+            "top": 26.25,
+            "right": 322.609375,
+            "bottom": 77.75,
+            "left": 26.875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 586.890625,
+            "y": 28.25,
+            "width": 154.234375,
+            "height": 47.5,
+            "top": 28.25,
+            "right": 741.125,
+            "bottom": 75.75,
+            "left": 586.890625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "13px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 22.585975646972656,
+            "y": 94.67082214355469,
+            "width": 714.8560180664062,
+            "height": 903.9020385742188,
+            "top": 94.67082214355469,
+            "right": 737.4419937133789,
+            "bottom": 998.5728607177734,
+            "left": 22.585975646972656
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 70.99202728271484,
+            "y": 709.5341186523438,
+            "width": 292.5,
+            "height": 178,
+            "top": 709.5341186523438,
+            "right": 363.49202728271484,
+            "bottom": 887.5341186523438,
+            "left": 70.99202728271484
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 70.99202728271484,
+            "y": 769.6278686523438,
+            "width": 292.5,
+            "height": 117.90625,
+            "top": 769.6278686523438,
+            "right": 363.49202728271484,
+            "bottom": 887.5341186523438,
+            "left": 70.99202728271484
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "58.368px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 521.5179443359375,
+            "y": 146.30686950683594,
+            "width": 207.375,
+            "height": 180.00001525878906,
+            "top": 146.30686950683594,
+            "right": 728.8929443359375,
+            "bottom": 326.306884765625,
+            "left": 521.5179443359375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 521.5179443359375,
+            "y": 628.478759765625,
+            "width": 207.375,
+            "height": 250,
+            "top": 628.478759765625,
+            "right": 728.8929443359375,
+            "bottom": 878.478759765625,
+            "left": 521.5179443359375
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390-chapter-1": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390-chapter-2": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 1465,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390-chapter-3": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 2748,
+      "active": "3. 映像と表現",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390-chapter-4": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 3963,
+      "active": "4. 技術とアイデア",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": false,
+          "opacity": "0.859112",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390-chapter-5": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 5111,
+      "active": "5. 制作・開発・研修",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "390-chapter-6": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 6394,
+      "active": "6. お問い合わせ",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "backToTop": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 0,
+      "active": "1. はじまり",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "scrollCue": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 1465,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "play": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 1465,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": false,
+        "ready": 4
+      }
+    },
+    "pause": {
+      "width": 390,
+      "scrollWidth": 390,
+      "scrollY": 1465,
+      "active": "2. 私たちの考え方",
+      "scenes": [
+        {
+          "name": "journey-scene journey-intro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-manifesto",
+          "inert": false,
+          "opacity": "1",
+          "hidden": "false"
+        },
+        {
+          "name": "journey-scene journey-create",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-discover",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-services",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        },
+        {
+          "name": "journey-scene journey-outro",
+          "inert": true,
+          "opacity": "0",
+          "hidden": "true"
+        }
+      ],
+      "elements": [
+        {
+          "name": "site-header story-header",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 82,
+            "top": 0,
+            "right": 390,
+            "bottom": 82,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "wordmark",
+          "rect": {
+            "x": 23.390625,
+            "y": 0,
+            "width": 82,
+            "height": 80,
+            "top": 0,
+            "right": 105.390625,
+            "bottom": 80,
+            "left": 23.390625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "26px"
+        },
+        {
+          "name": "desktop-nav",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "contact-link",
+          "rect": {
+            "x": 197.625,
+            "y": 22,
+            "width": 114.984375,
+            "height": 38,
+            "top": 22,
+            "right": 312.609375,
+            "bottom": 60,
+            "left": 197.625
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "12px"
+        },
+        {
+          "name": "journey-film",
+          "rect": {
+            "x": 10,
+            "y": 88,
+            "width": 370,
+            "height": 742,
+            "top": 88,
+            "right": 380,
+            "bottom": 830,
+            "left": 10
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-heading",
+          "rect": {
+            "x": 27.296875,
+            "y": 422.4375,
+            "width": 335.40625,
+            "height": 143.046875,
+            "top": 422.4375,
+            "right": 362.703125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "",
+          "rect": {
+            "x": 27.296875,
+            "y": 478.828125,
+            "width": 214.984375,
+            "height": 86.65625,
+            "top": 478.828125,
+            "right": 242.28125,
+            "bottom": 565.484375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "42.9px"
+        },
+        {
+          "name": "journey-news",
+          "rect": {
+            "x": 27.296875,
+            "y": 153,
+            "width": 315.90625,
+            "height": 98.5,
+            "top": 153,
+            "right": 343.203125,
+            "bottom": 251.5,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        },
+        {
+          "name": "journey-intro-aside",
+          "rect": {
+            "x": 27.296875,
+            "y": 603.953125,
+            "width": 315.90625,
+            "height": 138.78125,
+            "top": 603.953125,
+            "right": 343.203125,
+            "bottom": 742.734375,
+            "left": 27.296875
+          },
+          "font": "geistSans, \"geistSans Fallback\", \"Noto Sans JP\", \"Yu Gothic\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+          "fontSize": "16px"
+        }
+      ],
+      "video": {
+        "paused": true,
+        "ready": 4
+      }
+    },
+    "menuOpen": {
+      "open": true,
+      "active": "A",
+      "links": 5
+    },
+    "menuClosed": {
+      "open": false,
+      "focus": "mobile-toggle"
+    }
+  },
+  "console": "### Result\nTotal messages: 0 (Errors: 0, Warnings: 0)\n"
+}
