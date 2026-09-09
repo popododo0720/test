@@ -130,8 +130,13 @@ export function Journey() {
     video.addEventListener("loadeddata", update);
     document.addEventListener("visibilitychange", update);
     media.addEventListener("change", preference);
-    update();
+    // A cached or failed media response can arrive before React hydrates.
+    const initialFrame = requestAnimationFrame(() => {
+      if (video.error) setFilmError(true);
+      update();
+    });
     return () => {
+      cancelAnimationFrame(initialFrame);
       observer.disconnect();
       toggleRef.current = null;
       video.removeEventListener("loadeddata", update);
