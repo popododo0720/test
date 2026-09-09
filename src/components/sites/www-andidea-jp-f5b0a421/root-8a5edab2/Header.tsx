@@ -43,7 +43,7 @@ export function Header() {
 
   return (
     <>
-      <a className="skip-link" href="#main">メインコンテンツへスキップ</a>
+      <a className="skip-link" href="#main">本文へ移動</a>
       <header className="site-header story-header">
         <Link className="wordmark" href="/" aria-label="And Idea ホーム">
           <Image src={logo} alt="And Idea" width={107} height={107} priority unoptimized />
@@ -53,7 +53,7 @@ export function Header() {
         </nav>
         <div className="header-actions">
           <a className="contact-link" href="mailto:info@andidea.jp">
-            Let’s talk <ArrowUpRight size={18} aria-hidden="true" />
+            <span>Let’s talk</span> <ArrowUpRight size={18} aria-hidden="true" />
           </a>
           <button ref={toggleRef} className="mobile-toggle" type="button" aria-label="メニューを開く" aria-expanded={isOpen} aria-controls="mobile-navigation" onClick={() => setIsOpen(true)}>
             <Menu size={24} aria-hidden="true" />

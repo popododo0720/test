@@ -1,3 +1,4 @@
+button { font: inherit; }
 /* Source-derived responsive rules for https://www.andidea.jp/, extracted 2026-09-09. */
 .site-header{border-bottom:1px solid var(--border);justify-content:space-between;align-items:center;height:96px;padding:0 4%;display:flex}
 .wordmark>span{vertical-align:top;letter-spacing:0;margin-left:5px;font-size:13px}
@@ -462,7 +463,7 @@
   font-size: 16px;
 }
 html { scroll-padding-top: 100px; }
-.andidea-site button { font: inherit; }
+
 .andidea-site a, .andidea-site button { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
 .journey-bottom-hidden { visibility: hidden; }
 .journey-film video[hidden] { display: none; }

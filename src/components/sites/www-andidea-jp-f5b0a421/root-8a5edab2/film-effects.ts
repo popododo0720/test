@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, type RefObject } from "react";
+import luminance from "./film-luminance.json";
 
 const clamp = (value: number) => Math.max(0, Math.min(1, value));
 const reducedMotionQuery = "(prefers-reduced-motion: reduce)";
@@ -17,15 +18,11 @@ function createCanvas(className: string, parent: HTMLElement) {
 function watchInk(root: HTMLElement, video: HTMLVideoElement) {
   const poster = video.parentElement?.querySelector("img");
   const motion = matchMedia(reducedMotionQuery);
-  const sample = document.createElement("canvas");
-  sample.width = 48;
-  sample.height = 27;
-  const context = sample.getContext("2d", { willReadFrequently: true });
   let timer = 0;
   let disposed = false;
   function update() {
     timer = 0;
-    if (!context || disposed || document.hidden) return;
+    if (disposed || document.hidden) return;
     const source = motion.matches && poster ? poster : video;
     if (source === video && video.readyState < 2) return;
     const rect = source.getBoundingClientRect();
@@ -33,11 +30,10 @@ function watchInk(root: HTMLElement, video: HTMLVideoElement) {
     const width = source instanceof HTMLImageElement ? source.naturalWidth : video.videoWidth;
     const height = source instanceof HTMLImageElement ? source.naturalHeight : video.videoHeight;
     if (!width || !height) return;
-    let pixels: Uint8ClampedArray;
-    try {
-      context.drawImage(source, 0, 0, 48, 27);
-      pixels = context.getImageData(0, 0, 48, 27).data;
-    } catch { return; }
+    // Original page's precomputed brightness map keeps text contrast identical
+    // to the source film, without a per-frame canvas readback.
+    const filmTime = motion.matches ? 0 : video.currentTime;
+    const brightnessFrame = luminance.frames[Math.min(luminance.frames.length - 1, Math.max(0, Math.floor(filmTime * luminance.fps)))];
     const scale = Math.max(rect.width / width, rect.height / height);
     const position = getComputedStyle(source).objectPosition.split(" ").map(parseFloat);
     const cropX = (width * scale - rect.width) * (Number.isFinite(position[0]) ? position[0] / 100 : 0.5) / scale;
@@ -51,8 +47,8 @@ function watchInk(root: HTMLElement, video: HTMLVideoElement) {
         for (let col = 0; col < 9; col++) {
           const x = cropX + (box.left - rect.left + box.width * (col + 0.5) / 9) / scale;
           const y = cropY + (box.top - rect.top + box.height * (row + 0.5) / 5) / scale;
-          const index = (Math.min(26, Math.max(0, Math.floor(y / height * 27))) * 48 + Math.min(47, Math.max(0, Math.floor(x / width * 48)))) * 4;
-          brightness += (pixels[index] * 0.2126 + pixels[index + 1] * 0.7152 + pixels[index + 2] * 0.0722) / 255;
+          const index = (Math.min(26, Math.max(0, Math.floor(y / height * 27))) * 48 + Math.min(47, Math.max(0, Math.floor(x / width * 48))));
+          brightness += brightnessFrame[index] / 255;
         }
       }
       heading.dataset.filmInk = brightness / 45 > (heading.dataset.filmInk === "dark" ? 0.16 : 0.22) ? "dark" : "light";
