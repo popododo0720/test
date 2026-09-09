@@ -1,9 +1,6 @@
+import { Header } from "@/components/sites/www-andidea-jp-f5b0a421/root-8a5edab2/Header";
+import { Journey } from "@/components/sites/www-andidea-jp-f5b0a421/root-8a5edab2/Journey";
+
 export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center">
-      <p className="text-muted-foreground">
-        Clone target not yet built. Run <code className="font-mono text-foreground">/clone-website</code> to start.
-      </p>
-    </main>
-  );
+  return <><Header /><main id="main"><Journey /></main></>;
 }
