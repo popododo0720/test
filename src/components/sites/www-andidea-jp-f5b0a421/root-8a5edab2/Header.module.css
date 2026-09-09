@@ -1,0 +1,84 @@
+.scrollLocked {
+  overflow: hidden;
+}
+
+.sheet {
+  position: fixed;
+  inset: 0 0 0 auto;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  border: 0;
+  border-left: 1px solid;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.428571;
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 200ms ease-in-out, transform 200ms ease-in-out, display 200ms allow-discrete, overlay 200ms allow-discrete;
+}
+
+.sheet[open] {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sheet > * {
+  flex-shrink: 0;
+}
+
+.sheet::backdrop {
+  background: rgb(0 0 0 / 10%);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 150ms ease-in-out, display 200ms allow-discrete, overlay 200ms allow-discrete;
+}
+
+.sheet[open]::backdrop {
+  opacity: 1;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: inherit;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: var(--muted);
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@starting-style {
+  .sheet[open] {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+
+  .sheet[open]::backdrop {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet,
+  .sheet::backdrop {
+    transition: none;
+  }
+}
